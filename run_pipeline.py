@@ -5,6 +5,7 @@ import time
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 
+from utils.file_utils import clean_download_folders
 from config.logging_config import setup_logger
 
 logger = setup_logger(Path(__file__).stem)
@@ -69,6 +70,16 @@ PIPELINE = [
      "python scripts/gold/20_build_investment_dashboard.py"),
 ]
 
+# Delete all bronze downloaded data
+logger.info("=" * 60)
+logger.info("Cleaning Bronze Download Folders")
+logger.info("=" * 60)
+
+clean_download_folders(PROJECT_ROOT)
+
+logger.info("Cleaning Complete")
+
+# Pipeline for step01-20
 results = []
 
 pipeline_start = time.perf_counter()
