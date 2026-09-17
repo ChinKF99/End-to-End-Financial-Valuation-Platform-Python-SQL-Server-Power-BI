@@ -43,3 +43,14 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
     </td>
   </tr>
 </table>
+
+## Tech Stack  
+| Category        | Technology                  |
+| --------------- | --------------------------- |
+| Language        | Python                      |
+| Database        | SQL Server Express          |
+| ETL             | Pandas + SQLAlchemy         |
+| API             | Financial Modeling Prep API |
+| Visualization   | Power BI                    |
+| IDE             | VS Code                     |
+| Version Control | Git & GitHub                |
