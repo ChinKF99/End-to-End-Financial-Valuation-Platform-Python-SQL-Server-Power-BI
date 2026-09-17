@@ -13,3 +13,6 @@ This project is an end-to-end stock valuation pipeline built using Python, SQL S
 The objective is to automate the entire valuation process, starting from downloading raw financial statements, transforming them into analytics-ready datasets, calculating intrinsic values using multiple Discounted Cash Flow (DCF) models, and presenting the results through an interactive Power BI dashboard.
 
 The project follows a modern Medallion Architecture (Bronze → Silver → Gold) commonly used in real-world data engineering projects.
+
+## Dashboard File  
+My final dashboard file is in [dashboard.pbix]("powerbi/StockAutomation.pbix")
