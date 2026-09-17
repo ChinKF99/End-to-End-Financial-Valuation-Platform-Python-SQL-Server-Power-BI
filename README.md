@@ -44,7 +44,7 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
   </tr>
 </table>
 
-## Tech Stack  
+## ⚙️ Tech Stack
 | Category        | Technology                  |
 | --------------- | --------------------------- |
 | Language        | Python                      |
@@ -54,3 +54,28 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 | Visualization   | Power BI                    |
 | IDE             | VS Code                     |
 | Version Control | Git & GitHub                |
+
+## 🔧 Pipeline Workflow  
+Bronze Layer
+
+Responsible for downloading raw financial data from Financial Modeling Prep.
+
+Company Information  
+-Download Company Profile  
+-Load Company Profile into SQL
+
+Income Statement  
+-Download Income Statement  
+-Load Income Statement into SQL
+
+Balance Sheet  
+-Download Balance Sheet  
+-Load Balance Sheet into SQL
+
+Cash Flow  
+-Download Cash Flow Statement  
+-Load Cash Flow into SQL
+
+Financial Ratios  
+-Download Ratios (TTM)  
+-Load Ratios into SQL
