@@ -18,22 +18,25 @@ The project follows a modern Medallion Architecture (Bronze → Silver → Gold)
 My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 
 ## Project Architecture  
+<div align="center">
 Financial Modeling Prep API <br>
-| <br>
+│ <br>
 ▼ <br>
-Bronze Layer <br>
+**Bronze Layer** <br>
 (Raw Financial Data) <br>
-| <br>
+│ <br>
 ▼ <br>
-Silver Layer <br>
+**Silver Layer** <br>
 (Data Cleaning & Feature Engineering) <br>
-| <br>
+│ <br>
 ▼ <br>
-Gold Layer <br>
+**Gold Layer** <br>
 (Business Valuation Models) <br>
-| <br>
+│ <br>
 ▼ <br>
-SQL Server <br>
-| <br>
+**SQL Server** <br>
+│ <br>
 ▼ <br>
-Power BI Dashboard
+**Power BI Dashboard**
+</div>
+
