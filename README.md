@@ -7,7 +7,7 @@
     <img src="powerbi/Portfolio Screener.png" alt="Portfolio Screener" iwidth="1923" height="1093">
 </div>
 
-## 📌 Introduction/Project Overview
+## 📌 Introduction/Project Overview  
 This project is an end-to-end stock valuation pipeline built using Python, SQL Server, and Power BI.
 
 The objective is to automate the entire valuation process, starting from downloading raw financial statements, transforming them into analytics-ready datasets, calculating intrinsic values using multiple Discounted Cash Flow (DCF) models, and presenting the results through an interactive Power BI dashboard.
@@ -17,23 +17,23 @@ The project follows a modern Medallion Architecture (Bronze → Silver → Gold)
 ## Dashboard File  
 My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 
-## Project Architecture
-Financial Modeling Prep API  
-            │  
-            ▼  
-     Bronze Layer
- (Raw Financial Data)
-            │
-            ▼
-     Silver Layer
-(Data Cleaning & Feature Engineering)
-            │
-            ▼
-      Gold Layer
- (Business Valuation Models)
-            │
-            ▼
-      SQL Server
-            │
-            ▼
-      Power BI Dashboard
+## Project Architecture  
+Financial Modeling Prep API <br>
+| <br>
+▼ <br>
+Bronze Layer <br>
+(Raw Financial Data) <br>
+| <br>
+▼ <br>
+Silver Layer <br>
+(Data Cleaning & Feature Engineering) <br>
+| <br>
+▼ <br>
+Gold Layer <br>
+(Business Valuation Models) <br>
+| <br>
+▼ <br>
+SQL Server <br>
+| <br>
+▼ <br>
+Power BI Dashboard
