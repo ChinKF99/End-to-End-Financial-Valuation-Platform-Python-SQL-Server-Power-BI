@@ -57,7 +57,7 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 
 ## 🔧 Pipeline Workflow  
 
-### Bronze Layer  
+### Bronze Layer
 Responsible for downloading raw financial data from Financial Modeling Prep & loading it into SQL server.
 -Company Information  
 -Income Statement  
@@ -65,7 +65,7 @@ Responsible for downloading raw financial data from Financial Modeling Prep & lo
 -Cash Flow  
 -Financial Ratios
 
-### Silver Layer  
+### Silver Layer
 Transforms raw financial data into clean analytics tables.  
 -Company Financials Table  
 -Growth Metrics Table    
