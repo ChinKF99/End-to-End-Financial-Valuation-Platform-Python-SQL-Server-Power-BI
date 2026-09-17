@@ -15,4 +15,4 @@ The objective is to automate the entire valuation process, starting from downloa
 The project follows a modern Medallion Architecture (Bronze → Silver → Gold) commonly used in real-world data engineering projects.
 
 ## Dashboard File  
-My final dashboard file is in [dashboard.pbix]("powerbi/StockAutomation.pbix")
+My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
