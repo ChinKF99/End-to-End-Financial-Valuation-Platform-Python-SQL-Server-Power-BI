@@ -56,26 +56,27 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 | Version Control | Git & GitHub                |
 
 ## 🔧 Pipeline Workflow  
-Bronze Layer
 
-Responsible for downloading raw financial data from Financial Modeling Prep.
+### Bronze Layer  
+Responsible for downloading raw financial data from Financial Modeling Prep & loading it into SQL server.
+-Company Information  
+-Income Statement  
+-Balance Sheet  
+-Cash Flow  
+-Financial Ratios
 
-Company Information  
--Download Company Profile  
--Load Company Profile into SQL
+### Silver Layer  
+Transforms raw financial data into clean analytics tables.  
+-Company Financials Table  
+-Growth Metrics Table    
+-Financial Ratios
 
-Income Statement  
--Download Income Statement  
--Load Income Statement into SQL
+### Gold Layer
+Contains business valuation models.
+-DCF Assumptions Table  
+-Standard DCF Table  
+-Reverse DCF Table  
+-Scenario Analysis Table  
+-Investment Dashboard Table
 
-Balance Sheet  
--Download Balance Sheet  
--Load Balance Sheet into SQL
-
-Cash Flow  
--Download Cash Flow Statement  
--Load Cash Flow into SQL
-
-Financial Ratios  
--Download Ratios (TTM)  
--Load Ratios into SQL
+## 🎯 Question to Analyze and why
