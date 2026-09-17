@@ -21,28 +21,19 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 Financial Modeling Prep API
             │
             ▼
-
      Bronze Layer
  (Raw Financial Data)
-
             │
             ▼
-
      Silver Layer
 (Data Cleaning & Feature Engineering)
-
             │
             ▼
-
       Gold Layer
  (Business Valuation Models)
-
             │
             ▼
-
       SQL Server
-
             │
             ▼
-
       Power BI Dashboard
