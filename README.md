@@ -115,8 +115,11 @@ Contains visualization of the transform data
 
 ## 💡 Business Recommendations:
 -Do not rely solely on Standard DCF, it should be used as one valuation framework rather than the only investment decision tool.  
+
 -Use Reverse DCF to understand market expectations, as it provides valuable insight into whether current market prices already assume aggressive future growth.  
+
 -Focus on companies with both Positive Margin of Safety & Reasonable Implied Growth, it represent better long-term investment opportunities because they combine attractive valuation with realistic market expectations.  
+
 -Use Scenario Analysis for risk assessment, instead of making decisions based on one valuation investor should compare different cases to understand downside risk and upside potential.
 
 ## ✅ Conclusion
