@@ -102,13 +102,16 @@ Portfolio Screener:
 -How do different sectors compare?
 
 ## 🔍 Insights  
-Executive Summary/Standard DCF Chart  
+Executive Summary/Standard DCF Chart:  
+
 -Most large-cap technology stocks trade above Standard DCF intrinsic value, which indicates that the market is pricing in future growth well beyond historical performance.
 
-Reverse DCF Chart  
+Reverse DCF Chart:  
+
 -Reverse DCF reveals the market's growth expectations, several companies require exceptionally high future growth to justify today's valuation. (E.g. Apple, Amazon, AMD, Microsoft)  
 
 Scenario Analaysis Chart:  
+
 -Scenario Analysis highlights valuation sensitivity, changing only a few assumptions produces large valuation differences.  
 -This demonstrates why DCF outputs should always be interpreted together with scenario analysis rather than as a single absolute value.
 
