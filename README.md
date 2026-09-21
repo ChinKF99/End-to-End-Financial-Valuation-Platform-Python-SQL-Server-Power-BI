@@ -55,7 +55,7 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 | IDE             | VS Code                     |
 | Version Control | Git & GitHub                |
 
-## 🔧 Pipeline Workflow  
+## 🏗️ Data Model/Pipeline Workflow
 
 ### Bronze Layer
 Responsible for downloading raw financial data from Financial Modeling Prep & loading it into SQL server.
@@ -76,7 +76,74 @@ Contains business valuation models.
 -DCF Assumptions Table  
 -Standard DCF Table  
 -Reverse DCF Table  
--Scenario Analysis Table  
+-Scenario Analysis Table (Base vs Bull vs Bear Case)
 -Investment Dashboard Table
 
-## 🎯 Question to Analyze and why
+### PowerBI Dashboard
+Contains visualization of the transform data
+-Executive Summary
+-Standard DCF Chart
+-Reverse DCF Chart
+-Scenario Analysis Chart (Base vs Bull vs Bear Case)
+-Portfolio Screener
+
+## 🎯 Question to Analyze
+Executive Summary & Standard DCF Chart:  
+-Is the market currently pricing this company above or below its estimated intrinsic value?
+
+Reverse DCF Chart:  
+-How much future growth is the market expecting?  
+-Is the market expecting unrealistic growth?
+
+Scenario Analysis Chart:  
+-How much does intrinsic value change under different business assumptions?
+
+Portfolio Screener:  
+How do different sectors compare?
+
+## 🔍 Insights  
+Executive Summary/Standard DCF Chart 
+-Most large-cap technology stocks trade above Standard DCF intrinsic value, which indicates that the market is pricing in future growth well beyond historical performance.
+
+Reverse DCF Chart  
+-Reverse DCF reveals the market's growth expectations, several companies require exceptionally high future growth to justify today's valuation. (E.g. Apple, Amazon, AMD, Microsoft)  
+
+Scenario Analaysis Chart:  
+-Scenario Analysis highlights valuation sensitivity, changing only a few assumptions produces large valuation differences.  
+-This demonstrates why DCF outputs should always be interpreted together with scenario analysis rather than as a single absolute value.
+
+
+## 💡 Business Recommendations:
+-Do not rely solely on Standard DCF, it should be used as one valuation framework rather than the only investment decision tool.  
+-Use Reverse DCF to understand market expectations, as it provides valuable insight into whether current market prices already assume aggressive future growth.  
+-Focus on companies with both Positive Margin of Safety & Reasonable Implied Growth, it represent better long-term investment opportunities because they combine attractive valuation with realistic market expectations.  
+-Use Scenario Analysis for risk assessment, instead of making decisions based on one valuation investor should compare different cases to understand downside risk and upside potential.
+
+## ✅ Conclusion
+This project demonstrates how a complete financial data pipeline can automate the investment valuation process from raw financial statements to interactive business intelligence dashboards.
+
+The solution integrates:  
+Python
+SQL Server
+ETL Pipeline
+Financial Modelling
+Discounted Cash Flow
+Reverse DCF
+Scenario Analysis
+Power BI
+
+Into a fully automated workflow. Rather than relying solely on intrinsic value estimates, the project combines multiple valuation approaches to provide deeper insight into market expectations, valuation sensitivity, and investment risk.
+
+The modular Bronze–Silver–Gold architecture also makes the solution scalable and maintainable, allowing additional valuation models or financial metrics to be incorporated with minimal changes.
+
+Overall, the project demonstrates practical skills in:  
+-Data Engineering  
+-ETL Development  
+-Financial Data Analysis  
+-SQL Database Design  
+-Python Automation  
+-Business Intelligence  
+-Data Visualization
+
+making it representative of an end-to-end data analytics project suitable for investment research and financial decision support.
+
