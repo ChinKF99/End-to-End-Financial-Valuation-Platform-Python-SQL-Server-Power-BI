@@ -150,3 +150,16 @@ Overall, the project demonstrates practical skills in:
 
 making it representative of an end-to-end data analytics project suitable for investment research and financial decision support.
 
+## 🗂️ How to Run  
+1. Clone the repository  
+2. Create & Activate a virtual environment  
+3. Install dependencies, pip install -r requirements.txt  
+4. Configure environment variables, create .env file with:  
+-MY_API_KEY=YOUR_FMP_API_KEY  
+-SERVER=YOUR_SQL_SERVER  
+-DATABASE=StockAutomation  
+5. Run the pipeline, python run_pipeline.py  
+6. Open & Connect PowerBI to:  
+-SQL Server Express  
+-Database: StockAutomation  
+7. Load gold.build_investment_dashboard  
