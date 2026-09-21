@@ -99,10 +99,10 @@ Scenario Analysis Chart:
 -How much does intrinsic value change under different business assumptions?
 
 Portfolio Screener:  
-How do different sectors compare?
+-How do different sectors compare?
 
 ## 🔍 Insights  
-Executive Summary/Standard DCF Chart 
+Executive Summary/Standard DCF Chart  
 -Most large-cap technology stocks trade above Standard DCF intrinsic value, which indicates that the market is pricing in future growth well beyond historical performance.
 
 Reverse DCF Chart  
