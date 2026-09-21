@@ -80,11 +80,11 @@ Contains business valuation models.
 -Investment Dashboard Table
 
 ### PowerBI Dashboard
-Contains visualization of the transform data
--Executive Summary
--Standard DCF Chart
--Reverse DCF Chart
--Scenario Analysis Chart (Base vs Bull vs Bear Case)
+Contains visualization of the transform data  
+-Executive Summary  
+-Standard DCF Chart  
+-Reverse DCF Chart  
+-Scenario Analysis Chart (Base vs Bull vs Bear Case)  
 -Portfolio Screener
 
 ## 🎯 Question to Analyze
