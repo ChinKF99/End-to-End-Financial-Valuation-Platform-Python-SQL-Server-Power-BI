@@ -135,14 +135,14 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 This project demonstrates how a complete financial data pipeline can automate the investment valuation process from raw financial statements to interactive business intelligence dashboards.
 
 The solution integrates:  
-Python  
-SQL Server  
-ETL Pipeline  
-Financial Modelling  
-Discounted Cash Flow  
-Reverse DCF  
-Scenario Analysis  
-Power BI  
+-Python  
+-SQL Server  
+-ETL Pipeline  
+-Financial Modelling  
+-Discounted Cash Flow  
+-Reverse DCF  
+-Scenario Analysis  
+-Power BI  
 
 Into a fully automated workflow. Rather than relying solely on intrinsic value estimates, the project combines multiple valuation approaches to provide deeper insight into market expectations, valuation sensitivity, and investment risk.
 
