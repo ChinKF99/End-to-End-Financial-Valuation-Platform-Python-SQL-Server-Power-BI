@@ -164,7 +164,7 @@ making it representative of an end-to-end data analytics project suitable for in
 2. Create & Activate a virtual environment  
 3. Install dependencies, pip install -r requirements.txt  
 4. Configure environment variables, create .env file with:  
--MY_API_KEY=YOUR_FMP_API_KEY  
+-MY_API_KEY=YOUR_FMP_API_KEY (https://site.financialmodelingprep.com/)  
 -SERVER=YOUR_SQL_SERVER  
 -DATABASE=StockAutomation  
 5. Run the pipeline, python run_pipeline.py  
