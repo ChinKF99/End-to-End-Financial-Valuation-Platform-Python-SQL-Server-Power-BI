@@ -56,6 +56,45 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
 | Version Control | Git & GitHub                |
 
 ## 🏗️ Data Model/Pipeline Workflow
+                 Financial Modeling Prep API
+                           │
+                           ▼
+                Python ETL Pipeline
+      (Requests • Pandas • SQLAlchemy • Logging)
+                           │
+                           ▼
+                 SQL Server Data Warehouse
+        ┌────────────────────────────────────┐
+        │ Bronze (Raw API Data)              │
+        │ • Company Profile                  │
+        │ • Income Statement                 │
+        │ • Balance Sheet                    │
+        │ • Cash Flow                        │
+        │ • Ratios                           │
+        └────────────────────────────────────┘
+                           │
+                           ▼
+        ┌────────────────────────────────────┐
+        │ Silver (Business Ready)            │
+        │ • Company Financials               │
+        │ • Growth Metrics                   │
+        │ • Financial Ratios                 │
+        └────────────────────────────────────┘
+                           │
+                           ▼
+        ┌────────────────────────────────────┐
+        │ Gold (Analytics Layer)             │
+        │ • DCF Assumptions                  │
+        │ • Standard DCF                     │
+        │ • Reverse DCF                      │
+        │ • Scenario Analysis                │
+        │ • Investment Dashboard             │
+        └────────────────────────────────────┘
+                           │
+                           ▼
+                    Power BI Dashboard
+      KPI Cards • DCF Analysis • Reverse DCF
+      Scenario Analysis • Sector Breakdown
 
 ### Bronze Layer
 Responsible for downloading raw financial data from Financial Modeling Prep & loading it into SQL server.
