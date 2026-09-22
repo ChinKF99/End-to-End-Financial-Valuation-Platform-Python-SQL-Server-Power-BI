@@ -96,36 +96,6 @@ My final dashboard file is in [dashboard.pbix](powerbi/StockAutomation.pbix)
       KPI Cards • DCF Analysis • Reverse DCF
       Scenario Analysis • Sector Breakdown
 
-### Bronze Layer
-Responsible for downloading raw financial data from Financial Modeling Prep & loading it into SQL server.
--Company Information  
--Income Statement  
--Balance Sheet  
--Cash Flow  
--Financial Ratios
-
-### Silver Layer
-Transforms raw financial data into clean analytics tables.  
--Company Financials Table  
--Growth Metrics Table    
--Financial Ratios
-
-### Gold Layer
-Contains business valuation models.
--DCF Assumptions Table  
--Standard DCF Table  
--Reverse DCF Table  
--Scenario Analysis Table (Base vs Bull vs Bear Case)
--Investment Dashboard Table
-
-### PowerBI Dashboard
-Contains visualization of the transform data  
--Executive Summary  
--Standard DCF Chart  
--Reverse DCF Chart  
--Scenario Analysis Chart (Base vs Bull vs Bear Case)  
--Portfolio Screener
-
 ## 🎯 Question to Analyze
 ### Executive Summary & Standard DCF Chart:  
 -Is the market currently pricing this company above or below its estimated intrinsic value?
